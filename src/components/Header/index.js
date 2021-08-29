@@ -2,7 +2,11 @@ import React from 'react';
 import '../../assets/css/style.css';
 
 
-function Header() {
+function Header(props) {
+    const {
+        contactSelected,
+        setContactSelected
+    } = props;
 
     return (
         <div className="HeaderStyle">
@@ -14,12 +18,12 @@ function Header() {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a dara_testid="about" href="#about">
+                        <a dara_testid="about" href="/">
                             About me
                         </a>
                     </li>
-                    <li className="mx-2" >
-                        <a href="#about"> Contact</a>
+                    <li className={`mx-2 ${contactSelected && 'headerActive'}`} >
+                        <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
                     <li className="mx-2">
                         <a href="#about">Projects</a>
