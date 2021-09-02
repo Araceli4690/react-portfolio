@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import Header from './components/Header';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -23,6 +24,7 @@ function App() {
           <ContactForm></ContactForm>
         )}
       </main>
+      <Footer />
     </div>
   );
 }
