@@ -3,25 +3,31 @@ import React from 'react';
 function Nav(props) {
     const {
         contactSelected,
-        setContactSelected
+        setContactSelected,
+
+
+
     } = props;
 
     return (
         <nav>
             <ul className="flex-row">
-                <li className="mx-2">
-                    <a dara_testid="about" href="/">
+                <li className="mx-1">
+                    <span onClick={() => { setContactSelected(false); }}>
                         About me
-                    </a>
+                    </span>
                 </li>
                 <li className={`mx-2 ${contactSelected && 'NavActive'}`} >
-                    <span onClick={() => setContactSelected(true)}>Contact</span>
+                    <span onClick={() => { setContactSelected(true) }}>Contact</span>
+                </li>
+                <li className="mx-1">
+                    <span onClick={() => {
+                        setContactSelected(false);
+                    }}
+                    >Portfolio</span>
                 </li>
                 <li className="mx-2">
-                    <a href="#about">Projects</a>
-                </li>
-                <li className="mx-2">
-                    <a href="#about">Resume</a>
+                    <span>Resume</span>
                 </li>
             </ul>
         </nav>

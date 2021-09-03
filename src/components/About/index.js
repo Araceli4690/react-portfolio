@@ -18,6 +18,7 @@ function About() {
                     dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
                     Curabitur imperdiet ultricies mollis. In ha
                 </p>
+                <br />
             </div>
         </section>
     )

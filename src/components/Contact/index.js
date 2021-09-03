@@ -31,10 +31,10 @@ function ContactForm() {
         }
     };
     return (
-        <section>
+        <section className="mx-5" >
             <h1>Contact me</h1>
             <br />
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form id="contact-form" onSubmit={handleSubmit} >
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />

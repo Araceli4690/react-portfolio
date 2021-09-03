@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import Header from './components/Header';
 import ContactForm from './components/Contact';
+import Project from './components/Project';
 import Footer from './components/Footer';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <div >
       <Header
         contactSelected={contactSelected}
-        setContactSelected={setContactSelected}>
+        setContactSelected={setContactSelected}
+      >
       </Header>
       <main>
 
@@ -19,12 +21,16 @@ function App() {
         {!contactSelected ? (
           <>
             <About></About>
+
           </>
         ) : (
           <ContactForm></ContactForm>
+
         )}
+
+        <Footer />
       </main>
-      <Footer />
+
     </div>
   );
 }
