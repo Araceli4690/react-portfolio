@@ -1,37 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav(props) {
-    const {
-        contactSelected,
-        setContactSelected,
-
-
-
-    } = props;
 
     return (
         <nav>
             <ul className="flex-row">
-                <li className="mx-1">
-                    <span onClick={() => { setContactSelected(false); }}>
-                        About me
-                    </span>
+                <li className={`mx-1 nav-item ${props.location.pathname === "/about" ? "active" : ""}`}>
+                    <Link className="nav-link" to="/about">About me</Link>
                 </li>
-                <li className={`mx-2 ${contactSelected && 'NavActive'}`} >
-                    <span onClick={() => { setContactSelected(true) }}>Contact</span>
+
+                <li className={`mx-2 nav-item ${props.location.pathname === "/contact" ? "active" : ""}`}>
+                    <Link class="nav-link" to="/contact">Contact</Link>
                 </li>
-                <li className="mx-1">
-                    <span onClick={() => {
-                        setContactSelected(false);
-                    }}
-                    >Portfolio</span>
+
+                <li className={`mx-2 nav-item ${props.location.pathname === "/portfolio" ? "active" : ""}`}>
+                    <Link className="nav-link" to="/portfolio"></Link>
                 </li>
-                <li className="mx-2">
-                    <span>Resume</span>
+
+                <li className={`mx-2 nav-item ${props.location.pathname === "/resume" ? "active" : ""}`}>
+                    <Link className="nav-link" to="/resume">Resume</Link>
                 </li>
             </ul>
-        </nav>
+        </nav >
     )
 }
 
-export default Nav;
+export default withRouter(Nav);

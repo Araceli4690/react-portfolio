@@ -1,22 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../assets/css/style.css';
 import Nav from '../Nav';
-
+import projects from '../../projects.json';
+import { Link, withRouter } from 'react-router-dom';
+import Nav from '../Nav';
 
 function Header(props) {
-    const { contactSelected, setContactSelected } = props;
-
     return (
         <div className="HeaderStyle">
             <h2>
-                <a style={{ color: 'rgb(51, 161, 156)' }} href="/">
+                <link style={{ color: 'rgb(51, 161, 156)' }} to="/">
                     Araceli
-                </a>
+                </link>
             </h2>
-            <Nav
-                contactSelected={contactSelected}
-                setContactSelected={setContactSelected}
-            />
+            <Nav />
         </div>
     );
 }
