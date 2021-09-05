@@ -1,44 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Projects = () => {
-
-    const [projectSample] = useState([
-        {
-            name: "dogo",
-            description: "Dog enjoying the sun"
-        },
-        {
-
-            name: "dogo-2",
-            description: "Dog enjoying the sun"
-        },
-        {
-
-            name: "dogo-3",
-            description: "Dog enjoying the sun"
-        },
-        {
-
-            name: "dogo-4",
-            description: "Dog enjoying the sun"
-        }
-    ]);
-
+const projectCard = (props) => {
     return (
-        <section>
-            <h1>Portfolio</h1>
+        <div className="flex-row">
             <div>
-                <div className="flex=row">
-                    {projectSample.map(() => (
-                        <img src={require(`../../assets/cover/${projectSample.name}.jpeg`)}
-                            alt={projectSample.name}
-                            className="img-thumbnail mx-1"
-                            key={projectSample.name}
-                        />
-                    ))}
-                </div>
+                <img className="img-fluid" alt={props.name} src={props.image}></img>
+                <a alt="jj" className="light" href={props.image}></a>
             </div>
-        </section>
-    );
-}
-export default Projects;
+            <div>
+                <h4><a alt="jj" href={props.deploy}>{props.name}</a></h4>
+                <p><a alt="hh" href={props.github}>Github</a></p>
+            </div>
+        </div>
+    )
+};
+
+export default projectCard;
