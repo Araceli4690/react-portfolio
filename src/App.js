@@ -5,20 +5,25 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
 
   return (
     <div >
-      <Header>
-        <nav></nav>
-      </Header>
-      <main>
-        <About></About>
-        <Contact></Contact>
-        <Portfolio></Portfolio>
-      </main>
-      <Footer></Footer>
+      <Router>
+        <Header>
+
+        </Header>
+        <div>
+          <Switch>
+            <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/portfolio" component={Portfolio} />
+          </Switch>
+        </div>
+        <Footer></Footer>
+      </Router>
 
     </div>
   );

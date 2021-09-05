@@ -1,27 +1,22 @@
 import React from 'react';
 import '../../assets/css/style.css';
-import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Nav from "../../components/Nav";
-import About from "../../components/About";
-import Contact from "../../components/Contact";
-import Portfolio from '../../components/Portfolio';
+
 
 
 function Header() {
     return (
-        <Router>
-            <Header>
-                <Nav />
 
-            </Header>
-            <div>
-                <Switch>
-                    <Route exact path="/about" component={About} />
-                    <Route exact path="/contact" component={Contact} />
-                    <Route exact path="/portfolio" component={Portfolio} />
-                </Switch>
-            </div>
-        </Router>
+        <Header className="HeaderStyle">
+            <Link style={{ color: 'rgb(51, 161, 156)' }} to="/">
+                <h2> Araceli</h2>
+            </Link>
+            <Nav />
+
+        </Header>
+
+
     );
 }
 
