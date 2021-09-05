@@ -4,7 +4,7 @@ import Nav from '../Nav';
 
 
 function Header(props) {
-    const { contactSelected, setContactSelected } = props;
+
 
     return (
         <div className="HeaderStyle">
@@ -14,8 +14,7 @@ function Header(props) {
                 </a>
             </h2>
             <Nav
-                contactSelected={contactSelected}
-                setContactSelected={setContactSelected}
+                props={props}
             />
         </div>
     );

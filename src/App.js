@@ -3,34 +3,42 @@ import './App.css';
 import About from './components/About';
 import Header from './components/Header';
 import ContactForm from './components/Contact';
-import Project from './components/Project';
+//import Project from './components/Project';
 import Footer from './components/Footer';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
+  const pages = [
+    {
+      name: 'about'
+    },
+    {
+      name: 'contact'
+    },
+    {
+      name: 'portfolio'
+    },
+    {
+      name: 'resume'
+    }
+  ]
+
+  const [currentPage, setCurrentPage] = useState(pages[0])
+
   return (
     <div >
-      <Header
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      >
+      <Header pages={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}>
       </Header>
       <main>
-
-
-        {!contactSelected ? (
-          <>
-            <About></About>
-
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-
+        {currentPage.name === "about" ? <About /> : (
+          currentPage.name === "contact" ? <ContactForm /> : (
+            currentPage.name === "portfolio" ? "portfolio" : (
+              currentPage.name === "resume" ? "resume" : <About />
+            )
+          )
         )}
 
-        <Footer />
       </main>
-
+      <Footer />
     </div>
   );
 }
