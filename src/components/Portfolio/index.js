@@ -13,7 +13,7 @@ function Portfolio() {
             <h1>Portfolio</h1>
             <Wrapper >
                 {projects.map((project) => (
-                    <projectCard key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} />
+                    < projectCard key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} />
                 ))}
             </Wrapper>
         </section>
