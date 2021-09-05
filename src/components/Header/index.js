@@ -12,7 +12,7 @@ function Header() {
             <Link style={{ color: 'rgb(51, 161, 156)' }} to="/">
                 <h2> Araceli</h2>
             </Link>
-            <Nav />
+            {/*<Nav />*/}
 
         </Header>
 

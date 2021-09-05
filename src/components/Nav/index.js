@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Nav(props) {
 
@@ -8,20 +8,20 @@ function Nav(props) {
         <div>
             <nav>
                 <ul className="flex-row">
-                    <li className={` nav-item ${props.location.pathname === "/about" ? "active" : ""}`}>
-                        <Link className="nav-link" to="/about">About me</Link>
+                    <li className="nav-item">
+                        <NavLink to="/about" activeClassName="selected">About me</NavLink>
                     </li>
 
-                    <li className={` nav-item ${props.location.pathname === "/contact" ? "active" : ""}`}>
-                        <Link class="nav-link" to="/contact">Contact</Link>
+                    <li className="nav-item">
+                        <NavLink to="/contact" activeClassName="selected">Contact</NavLink>
                     </li>
 
-                    <li className={` nav-item ${props.location.pathname === "/portfolio" ? "active" : ""}`}>
-                        <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                    <li className="nav-item">
+                        <NavLink to="/portfolio" activeClassName="selected">Portfolio</NavLink>
                     </li>
 
-                    <li className={`nav-item ${props.location.pathname === "/resume" ? "active" : ""}`}>
-                        <Link className="nav-link" to="/resume">Resume</Link>
+                    <li className="nav-item">
+                        <NavLink to="/resume" activeClassName="selected">Resume</NavLink>
                     </li>
                 </ul>
             </nav >

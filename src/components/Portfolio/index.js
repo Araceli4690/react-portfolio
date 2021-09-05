@@ -1,5 +1,5 @@
 import React from 'react';
-import projectCard from '../Project';
+import projectCard from '../../components/Project';
 import projects from '../../projects.json';
 
 function Wrapper(props) {
