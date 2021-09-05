@@ -5,7 +5,7 @@ import Nav from '../Nav';
 
 function Header(props) {
 
-
+    const { pages, currentPage, setCurrentPage } = props
     return (
         <div className="HeaderStyle">
             <h2>
@@ -14,7 +14,9 @@ function Header(props) {
                 </a>
             </h2>
             <Nav
-                props={props}
+                pages={pages}
+                currentPage={currentPage}
+                setCurrentPage={setCurrentPage}
             />
         </div>
     );

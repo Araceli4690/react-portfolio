@@ -1,10 +1,12 @@
 import React from 'react';
 
-const projectCard = (props) => {
+const ProjectCard = (props) => {
+    const imgPath = props.image
+    console.log("imgPath", imgPath)
     return (
         <div className="flex-row">
             <div>
-                <img className="img-fluid" alt={props.name} src={props.image}></img>
+                <img className="img-fluid" alt={props.name} src={`../../assets/cover/${props.image}.jpeg`}></img>
                 <a alt="jj" className="light" href={props.image}></a>
             </div>
             <div>
@@ -15,4 +17,4 @@ const projectCard = (props) => {
     )
 };
 
-export default projectCard;
+export default ProjectCard;

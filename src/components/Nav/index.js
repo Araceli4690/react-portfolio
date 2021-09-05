@@ -1,12 +1,7 @@
 import React from 'react';
 
-function Nav(props) {
-    console.log(props);
-    console.log(props.currentPage);
+function Nav({ pages, currentPage, setCurrentPage }) {
 
-    const { pages, currentPage, setCurrentPage } = props
-
-    console.log("pages", pages, currentPage)
 
     return (
         <nav>

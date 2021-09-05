@@ -2,28 +2,28 @@
     {
         "id": 1,
         "name": "test1",
-        "image": "src/assets/img/projects/dogo-2.jpeg",
+        "image": "dogo-2",
         "github": "https://github.com/Araceli4690",
         "deploy": "https://github.com/Araceli4690"
     },
     {
         "id": 2,
         "name": "test2",
-        "image": "src/assets/img/projects/dogo-3.jpeg",
+        "image": "./src/assets/img/projects/dogo-3.jpeg",
         "github": "https://github.com/Araceli4690",
         "deploy": "https://github.com/Araceli4690"
     },
     {
         "id": 3,
         "name": "test3",
-        "image": "src/assets/img/projects/dogo-4.jpeg",
+        "image": "./src/assets/img/projects/dogo-4.jpeg",
         "github": "https://github.com/Araceli4690",
         "deploy": "https://github.com/Araceli4690"
     },
     {
         "id": 4,
         "name": "test4",
-        "image": "src/assets/img/projects/dogo-5.jpeg",
+        "image": "./src/assets/img/projects/dogo-5.jpeg",
         "github": "https://github.com/Araceli4690",
         "deploy": "https://github.com/Araceli4690"
     }

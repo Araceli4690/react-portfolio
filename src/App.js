@@ -3,7 +3,7 @@ import './App.css';
 import About from './components/About';
 import Header from './components/Header';
 import ContactForm from './components/Contact';
-//import Project from './components/Project';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
       <main>
         {currentPage.name === "about" ? <About /> : (
           currentPage.name === "contact" ? <ContactForm /> : (
-            currentPage.name === "portfolio" ? "portfolio" : (
+            currentPage.name === "portfolio" ? <Portfolio /> : (
               currentPage.name === "resume" ? "resume" : <About />
             )
           )
