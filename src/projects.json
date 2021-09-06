@@ -2,29 +2,29 @@
     {
         "id": 1,
         "name": "test1",
-        "image": "dogo-2",
-        "github": "https://github.com/Araceli4690",
+        "image": "dogo-2.jpeg",
+        "github": "https://github.com/Araceli4690/Budget-tracker-app.git",
         "deploy": "https://github.com/Araceli4690"
     },
     {
         "id": 2,
-        "name": "test2",
-        "image": "./src/assets/img/projects/dogo-3.jpeg",
+        "name": "Budget-Tracker",
+        "image": "budget-tracker.png",
         "github": "https://github.com/Araceli4690",
-        "deploy": "https://github.com/Araceli4690"
+        "deploy": "https://budget-tracker-app-2.herokuapp.com/"
     },
     {
         "id": 3,
-        "name": "test3",
-        "image": "./src/assets/img/projects/dogo-4.jpeg",
-        "github": "https://github.com/Araceli4690",
-        "deploy": "https://github.com/Araceli4690"
+        "name": "Moodsic",
+        "image": "moodsic.png",
+        "github": "https://github.com/nmihaly/MOODSIC.git",
+        "deploy": "https://nmihaly.github.io/MOODSIC/"
     },
     {
         "id": 4,
-        "name": "test4",
-        "image": "./src/assets/img/projects/dogo-5.jpeg",
-        "github": "https://github.com/Araceli4690",
-        "deploy": "https://github.com/Araceli4690"
+        "name": "myHealth",
+        "image": "myHealth.png",
+        "github": "https://github.com/inara-nyingifa/MyHealth.git",
+        "deploy": "https://my-health-application.herokuapp.com/"
     }
 ]

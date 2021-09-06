@@ -6,15 +6,15 @@ function Nav({ pages, currentPage, setCurrentPage }) {
     return (
         <nav>
             <ul className="flex-row">
-                <li className="mx-1">
+                <li className="mx-2">
                     <span onClick={() => setCurrentPage(pages[0])}>
                         About me
                     </span>
                 </li>
-                <li  >
+                <li className="mx-2">
                     <span onClick={() => setCurrentPage(pages[1])}>Contact</span>
                 </li>
-                <li className="mx-1">
+                <li className="mx-2">
                     <span onClick={() => setCurrentPage(pages[2])}>Portfolio</span>
                 </li>
                 <li className="mx-2">
