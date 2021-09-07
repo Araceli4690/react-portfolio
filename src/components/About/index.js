@@ -10,13 +10,7 @@ function About() {
             <div className="mx-2">
                 <br />
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-                    condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-                    mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-                    Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-                    justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-                    dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-                    Curabitur imperdiet ultricies mollis. In ha
+                    Experienced Research Assistant with a demonstrated history of working in the higher education industry. Skilled in front-end and back-end web development as well as data analysis. Strong research professional with a Bachelor's degree focused in Linguistics from California State University, Long Beach turned full-stack web developer. I am a problem-solver and critical thinker who is always eager to learn new skills and technologies. My experience working in research labs has turned me into an excellent team player and organizer with great communication skills. Did I also mention that I am an expert at googling?
                 </p>
                 <br />
             </div>

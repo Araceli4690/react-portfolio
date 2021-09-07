@@ -5,6 +5,7 @@ import Header from './components/Header';
 import ContactForm from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 function App() {
   const pages = [
@@ -32,7 +33,7 @@ function App() {
         {currentPage.name === "about" ? <About /> : (
           currentPage.name === "contact" ? <ContactForm /> : (
             currentPage.name === "portfolio" ? <Portfolio /> : (
-              currentPage.name === "resume" ? "resume" : <About />
+              currentPage.name === "resume" ? <Resume /> : <About />
             )
           )
         )}
