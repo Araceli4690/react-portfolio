@@ -3,7 +3,7 @@ import coverImage from '../../assets/cover/dogo.jpeg'
 
 function About() {
     return (
-        <section className="mx-5" >
+        <section className="container" >
             <h1 id="about" style={{ color: 'rgb(51, 161, 156)', textAlign: "end" }}>About Me</h1>
             <br />
             <img src={coverImage} className="mx-5" style={{ width: "40%" }} alt="cover" />

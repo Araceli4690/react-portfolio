@@ -182,7 +182,6 @@ width: 100%;
 }
 .container {
   width: 50%;
-
 }
 
 .flex-row {
@@ -230,4 +229,11 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
 }
