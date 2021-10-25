@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "name": "test1",
-        "image": "dogo-2.jpeg",
-        "github": "https://github.com/Araceli4690/Budget-tracker-app.git",
-        "deploy": "https://github.com/Araceli4690"
+        "name": "myHealth",
+        "image": "myHealth.png",
+        "github": "https://github.com/inara-nyingifa/MyHealth.git",
+        "deploy": "https://my-health-application.herokuapp.com/"
     },
     {
         "id": 2,
@@ -22,9 +22,23 @@
     },
     {
         "id": 4,
-        "name": "myHealth",
-        "image": "myHealth.png",
-        "github": "https://github.com/inara-nyingifa/MyHealth.git",
-        "deploy": "https://my-health-application.herokuapp.com/"
+        "name": "Note Taker",
+        "image": "note-taker.png",
+        "github": "https://github.com/Araceli4690/note-taker.git",
+        "deploy": "https://note-taker-l.herokuapp.com/notes"
+    },
+    {
+        "id": 5,
+        "name": "Work Day Scheduler",
+        "image": "work-day.png",
+        "github": "https://github.com/Araceli4690/work-day-scheduler.git",
+        "deploy": "https://araceli4690.github.io/work-day-scheduler/"
+    },
+    {
+        "id": 6,
+        "name": "Google Books Search",
+        "image": "googleBooks.png",
+        "github": "https://github.com/Araceli4690/book-search.git",
+        "deploy": "https://glacial-stream-44112.herokuapp.com/"
     }
 ]

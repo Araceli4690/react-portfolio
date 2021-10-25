@@ -9,7 +9,7 @@ function Wrapper(props) {
 
 function Portfolio() {
     return (
-        <section>
+        <section style={{ padding: '20px' }}>
             <h1>Portfolio</h1>
             <br></br>
             <Wrapper className="sample" >
