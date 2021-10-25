@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume() {
     return (
-        <section className="container">
+        <section className="mx-5" id='container'>
             <h1 style={{ textAlign: "end" }}>Resume</h1>
             <br />
             <div className="flex-row">

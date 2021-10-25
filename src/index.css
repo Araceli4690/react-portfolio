@@ -34,9 +34,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background-image: url('./assets/cover/bg2.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
+background-color: #dcc4c4;
   color: var(--dark);
   font-family: 'Cardo', serif;
 
@@ -235,5 +233,9 @@ a {
   .container {
     width: 100%;
     padding: 10px;
+  }
+  #container {
+    width: 100%;
+    padding: 50px;
   }
 }
