@@ -117,7 +117,7 @@ img {
   border: 2px solid rgb(51, 161, 156);
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
+
 }
 
 
@@ -164,6 +164,7 @@ textarea {
 	border: 3px solid #cccccc;
 	padding: 5px;
 }
+
 .footer{
   margin-top: 1rem;
   padding: 1rem;
@@ -184,12 +185,13 @@ textarea {
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
 }
-
+.wrapper{
+  display: flex;
+flex-wrap: wrap;
+}
 .container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 50%;
+
 }
 
 .flex-row {

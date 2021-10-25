@@ -11,7 +11,8 @@ function Portfolio() {
     return (
         <section>
             <h1>Portfolio</h1>
-            <Wrapper >
+            <br></br>
+            <Wrapper className="sample" >
                 {projects.map((project) => (
                     < ProjectCard key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} />
                 ))}
