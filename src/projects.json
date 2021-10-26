@@ -22,10 +22,10 @@
     },
     {
         "id": 4,
-        "name": "Note Taker",
-        "image": "note-taker.png",
-        "github": "https://github.com/Araceli4690/note-taker.git",
-        "deploy": "https://note-taker-l.herokuapp.com/notes"
+        "name": "Shop Shop",
+        "image": "shop-shop.png",
+        "github": "https://github.com/Araceli4690/shop-shop-store.git",
+        "deploy": "https://salty-plateau-17709.herokuapp.com/ "
     },
     {
         "id": 5,
