@@ -34,7 +34,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-background-color: rgb(255, 238, 246);
+background-color: rgb(254, 235, 242);
   color: var(--dark);
   font-family: 'Zen Kaku Gothic Antique', sans-serif;;
 
@@ -112,7 +112,7 @@ button[disabled] {
 }
 
 img {
-  border: 2px solid rgb(108, 0, 91);
+  border: 2px solid rgb(151, 199, 197);
   border-radius: 4px;
   padding: 5px;
 
@@ -166,7 +166,7 @@ textarea {
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  background-color: rgb(151, 199, 197);
+  background-color: rgb(218, 155, 177);
   bottom: 0;
   position:fixed;
   left: 0;
