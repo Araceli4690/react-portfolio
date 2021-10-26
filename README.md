@@ -18,7 +18,7 @@ To see the application in action you can clone the repo and install the appropri
 ## Deployed-App
 You can also view the application at the following [github](https://araceli4690.github.io/react-portfolio/) link. The homepage that displays will look like the one below.
 
-![](./src/assets/cover/portfolio.png)
+![](./src/assets/cover/React-App.gif)
 
 ## Contact
 If you have any questions feel free to contact me through my [Github](https://github.com/Araceli4690).
