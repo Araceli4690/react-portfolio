@@ -10,7 +10,7 @@ function Wrapper(props) {
 function Portfolio() {
     return (
         <section style={{ padding: '20px' }}>
-            <h1>Portfolio</h1>
+            <h1 style={{ color: 'rgb(143, 196, 193)' }}>Portfolio</h1>
             <br></br>
             <Wrapper className="sample" >
                 {projects.map((project) => (

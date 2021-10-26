@@ -34,9 +34,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-background-color: #dcc4c4;
+background-color: rgb(255, 238, 246);
   color: var(--dark);
-  font-family: 'Cardo', serif;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;;
 
 }
 
@@ -112,7 +112,7 @@ button[disabled] {
 }
 
 img {
-  border: 2px solid rgb(51, 161, 156);
+  border: 2px solid rgb(108, 0, 91);
   border-radius: 4px;
   padding: 5px;
 
@@ -144,7 +144,7 @@ input:focus {
 
 li {
   list-style: none;
-  color: white;
+  color: rgb(134, 134, 135);
 }
 
 nav li:hover {
@@ -166,7 +166,7 @@ textarea {
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  background-color: #d39596;
+  background-color: rgb(151, 199, 197);
   bottom: 0;
   position:fixed;
   left: 0;
@@ -201,7 +201,14 @@ width: 100%;
   text-align: center;
 }
 
-
+.HeaderStyle {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  padding: 20px;
+  margin-bottom: 5px;
+}
 
 button {
 	background: var(--primary);
@@ -237,5 +244,18 @@ a {
   #container {
     width: 100%;
     padding: 50px;
+  }
+  .HeaderStyle {
+    padding-bottom: 0;
+    justify-content: center;
+    width: 100%;
+    margin: 5px;
+  }
+ 
+}
+
+@media screen and (max-width: 575px) {
+  nav li {
+    font-size: 12px;
   }
 }

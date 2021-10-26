@@ -32,7 +32,7 @@ function ContactForm() {
     };
     return (
         <section className="mx-5" id='container'>
-            <h1>Contact me</h1>
+            <h1 style={{ color: 'rgb(143, 196, 193)' }}>Contact me</h1>
             <br />
             <form id="contact-form" onSubmit={handleSubmit} >
                 <div>

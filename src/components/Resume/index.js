@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
     return (
         <section className="mx-5" id='container'>
-            <h1 style={{ textAlign: "end" }}>Resume</h1>
+            <h1 style={{ textAlign: "end", color: 'rgb(143, 196, 193)' }}>Resume</h1>
             <br />
             <div className="flex-row">
                 <div className="col">
